@@ -1,0 +1,17 @@
+.icon {
+    margin: 5px;
+}
+
+.profile {
+    display: flex;
+    cursor: pointer
+}
+
+.profile * {
+    margin-right: 5px;
+}
+
+.logo{
+    margin-left: auto;
+
+}
