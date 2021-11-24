@@ -1,7 +1,7 @@
 import axios from "axios";
 import api from "./routes";
 
-axios.defaults.baseURL = "http://localhost:3001/api";
+axios.defaults.baseURL = "https://finance-bend.herokuapp.com";
 
 axios.interceptors.request.use(
     function (config) {
